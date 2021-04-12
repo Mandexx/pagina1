@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Personalizado 01</title>
+    <link rel="stylesheet" href="./css/styles01.css"/>
+    </head>
+    <body>
+        <h1>TRANSPORTE Y ENTREGA DE MERCANCIAS</h1>
+        <p>Nuestra solución de transporte o envío de mercancías está orientada a la</p>
+        <p>integración entre proveedores, productores, comercializadores y clientes a través</p>
+        <p>de los servicios de transporte.</p>
+        <h2>Contamos con los siguientes servicios:</h2>
+        <ul>
+            <li>Transporte Aereo</li>
+                <ul>
+                    <li>Avión</li>
+                </ul>
+            <li>Transporte Terrestre</li>
+                <ul>
+                    <li>Automovil</li>
+                    <li>Motocicleta</li>
+                    <li>Camión</li>
+                </ul>
+            <h3>Tabla de Precios</h3>
+            <table>
+                <tr class="head">
+                    <th></th>
+                    <th>Cantidad de Paquetes</th>
+                    <th>Precio por paquete</th>
+                    <th>Descuento</th>
+                </tr>
+                <tr>
+                    <th>Avión</th>
+                    <td>500 a 1000 aprox.</td>                    
+                    <td>$100</td>
+                    <td>10%</td>
+                </tr>
+                <tr class="even">
+                    <th>Automovil</th>
+                    <td>20 a 50 prox.</td>                    
+                    <td>$200</td>
+                    <td>12%</td>
+                </tr>
+                <tr>
+                    <th>Motocicleta</th>
+                    <td>1 a 20 prox.</td>                    
+                    <td>$250</td>
+                    <td>15%</td>
+                </tr>
+                <tr class="even">
+                    <th>Camión</th>
+                    <td>50 a 500 prox.</td>                    
+                    <td>$200</td>
+                    <td>18%</td>
+                </tr>
+            </table>
+            <form action="actividad_02.html" method="get">
+                <fieldset>
+                    <legend>Ingresa tus Datos y te Contactaremos:</legend>
+                    <p><label class="title" for="name">Su Nombre:</label>
+                        <input type="text" name="name" id="name"><br />
+                        <label class="title" for="email">Su Correo:</label>
+                        <input type="text" name="email" id="email">
+                        <label class="title" for="telefono">Su Telefono:</label>
+                        <input type="text" name="telefono" id="telefono"></p>
+                        <p><label for="location" class="title"> Ciudad de Destino:</label>
+                            <select name="location" id="location">
+                                <option value="bo">Bogotá</option>
+                                <option value="ib">Calí</option>
+                                <option value="me">Medellín</option>
+                            </select></p>
+                        <span class="title">Autorizo el tratamiento de mis datos personales</span>
+                        <label><input type="radio" name="member" value="si" /> Si</label>
+                        <label><input type="radio" name="member" value="no" /> No</label></p>                        
+                </fieldset>
+                <div class="submit"><input type="submit" value="Registro"/></div>
+            </form>
+        </ul>
+    </body>
+    </html>>
